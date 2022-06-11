@@ -80,7 +80,6 @@ def start_game():
     while continue_playing:
         display_intro()
         solution = random.randint(MIN, MAX)
-        print(solution)
         number_of_attempts = 0
         still_guessing = True
 
